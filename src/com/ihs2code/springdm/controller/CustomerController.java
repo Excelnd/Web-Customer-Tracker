@@ -69,7 +69,7 @@ public class CustomerController {
 		
 		return "customer-form";
 		
-	}
+	} 
 	
 	@GetMapping("/delete")
 	public String deleteCustomer(@RequestParam("customerId") int theId) {
